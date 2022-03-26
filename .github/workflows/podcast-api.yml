@@ -94,7 +94,7 @@ jobs:
             failOnStandardError: true
             inlineScript: |
              $ACR_LOGIN_SERVER="${{secrets.ACR_NAME}}.azurecr.io"
-             $ACR_PASSWORD=$(az acr credential show -g ${{ secrets.AZURE_RESOURCE_GROUP_NAME }} -n ${{secrets.ACR_NAME}} -o tsv --query passwords[0].value)
+             $ACR_PASSWORD=$(az acr credential show -g mvpsummit -n mvpsummitimages6cf3 -o tsv --query passwords[0].value)
 
              az deployment group create -n ghaction${{ github.sha }} `
                 --resource-group  ${{secrets.AZURE_RESOURCE_GROUP_NAME}} `
