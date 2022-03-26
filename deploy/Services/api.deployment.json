@@ -54,7 +54,7 @@
   "functions": [],
   "variables": {
     "workspaceId": "[resourceId('Microsoft.OperationalInsights/workspaces', parameters('workspaceName'))]",
-    "kubernetesEnvId": "[resourceId('Microsoft.Web/kubeEnvironments', parameters('kubernetesEnvName'))]",
+    "kubernetesEnvId": "[resourceId('Microsoft.App/managedEnvironments', parameters('kubernetesEnvName'))]",
     "kubernetesEnvLocation": "canadacentral",
     "podcastDbConnectionString": "[format('Server=tcp:{0}.database.windows.net,1433;Initial Catalog={1};Persist Security Info=False;User ID={2};Password={3};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;', parameters('serverName'), parameters('sqlDBName'), parameters('administratorLogin'), parameters('administratorLoginPassword'))]",
     "podcastApiImage": "[format('{0}/podcastapi:{1}', parameters('acrLoginServer'), parameters('imageTag'))]",
@@ -387,7 +387,7 @@
       },
       "tags": {},
       "dependsOn": [
-        "[resourceId('Microsoft.App/kubeEnvironments', parameters('kubernetesEnvName'))]",
+        "[resourceId('Microsoft.App/managedEnvironments', parameters('kubernetesEnvName'))]",
         "[resourceId('Microsoft.App/containerApps', 'podcastapica')]",
         "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
       ]
