@@ -15,10 +15,7 @@ namespace Podcast.Transcript.Function
         public void Run([TimerTrigger("0 0 * * * *")]TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
-
-            // 1-line change: Dapr app id as part of the header
-            client.DefaultRequestHeaders.Add("dapr-app-id", "podcast-transcribe");
-
+            
             var content = new StringContent("{}", Encoding.UTF8, "application/json"); //to specify specific audio files
 
             // Invoking the /transcript microservice with HttpClient
