@@ -1,0 +1,3 @@
+Flask
+dapr
+azure-cognitiveservices-speech
