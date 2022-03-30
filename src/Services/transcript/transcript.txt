@@ -1,0 +1,239 @@
+0 (0s):
+Time is of the essence when identifying and resolving issues and your software and our friends at Reagan are here to help their brand new alerting feature is now available for crash reporting and real user monitoring. And they'll make sure you're quickly notified of the errors, crashes and front end performance issues that matter most to you in your business. You can set thresholds for your alert based on an increase in error account spike in load time or new issues introduced in the latest deployment. Along with custom filters, it gives you even greater control. You can assign multiple users to ensure the right team members are notified with alerts linked directly to the issue in Regan. That'll take you to the root cause faster, never miss another mission, critical issue in your software.
+
+0 (40s):
+Again, try Regan alerting today and create a world-class issue resolution workflow that gives you and your customers peace of mind. Visit raygun.com to learn more. There are simple usage-based plans. Start from as little as $4 a month with unlimited apps and users. That's reagan.com R a Y G U n.com to start your free 14 day trial. Hi, I'm Scott Hanselman. This is another episode of Hanselminutes damn chatting with me on a Lee.
+
+0 (1m 22s):
+He's a principal product manager at Woebot health. How are you?
+
+2 (1m 26s):
+I'm well, how are you?
+
+0 (1m 28s):
+You know, how has anyone is my new answer to how are you? Because we're in such a funny time right now that I've been hearing from people that how are you is the worst part of the video call and you get on a call and everyone's like, oh, I did this. And I did that. And I did, and I went hiking. So, you know, that's my answer to how, how are you right now? I am, I am vertical. And I'm grateful for that
+
+2 (1m 55s):
+Had an achievement these days. I do like that part of the call though, cause I like to live vicariously through other people. So I'm like to hear that they're doing fun things and, and having a fun life or even just if they need to share that, they're not like I like that moment of connection at the beginning, but I hear you. It's it's been tough these days.
+
+0 (2m 12s):
+That is, that is nice. We have, I have enjoyed, I've been enjoying the virtual team building exercises that we've been trying out playing games together. I've been at Microsoft for 15 years and I've never had any of those kinds of team building experiences and the, the pandemic and the virtual illness of it all has made me be a lot more empathetic towards other people on the other side, because now I see their houses and they didn't sign up for me to see their kitchen
+
+2 (2m 37s):
+Truth, truth. Although, I mean, I think people are curate their backgrounds, certainly I'm in my bedroom, which you wouldn't be able to know based on me being in the corner. Cause that is now my new office. So I think some of the virtual backgrounds are amazing too, that people do.
+
+0 (2m 54s):
+I saw a video of a gentleman who had put up a, a bookshelf behind him and it turned out it was actually a zoom background, but it was an actual full-size kind of step and repeat picture of a bookshelf. And he, it was a credibility bookshelf to show that he read. So they knew him when he was interviewed. People would think well of him, but he knocked it over in the middle of a call and it just tipped backwards, showed the chaos of the children's room behind him.
+
+2 (3m 20s):
+That's fantastic. I need to get me one of those,
+
+0 (3m 24s):
+All I did was put up a, an led light and now it looks like a fancy, a fancy background, but it's a spare bedroom with some Ikea shelves and a fancy led. And I feel like a million bucks. So you've been in engineering for a long time. But when I look at your LinkedIn and I start exploring your background, you have not only a computer science degree, but also a background in theater. Is that a double major? I was not aware of.
+
+2 (3m 48s):
+It was a, yeah, it wasn't a double major. Certainly my, my professors thought I was nutty. They were like, well, we don't have to worry about you being well-rounded here. So that's great. Which was amazing. I mean, I think I had some, some good support in school to be able to do both, but yeah, I mean, I was definitely interested in computer science and that was a surprise to me. I grew up in a very theatrical kind of family. My father's a pianist, but my mom was like, you must learn computers. It's the way the future. I was like, okay. And I took a class and I was like, oh, actually I kinda like this.
+
+2 (4m 28s):
+And that was it just all evolved from there.
+
+0 (4m 31s):
+Why do you think that historically there's been kind of a negative stereotype that computer people don't have personalities and why do we even joke now in 2022, that someone might be both a theater person and a computer person at the same time.
+
+2 (4m 45s):
+That's amazing. I think that's an old stereotype that I hope is kind of dying out. I guess it's kind of evolved now into the B-roll thing, which I hope that's dying out now too. Yeah. I think there's definitely a thought that in order to be good at computer science or math or any kind of science at all, any kind of stem that you have to be some sort of quirky, bizarre individual, or that you need to, you know, the mad scientist stereotype, you know, which is not entirely true. I think we all are a little, a little nuts in our own lives.
+
+0 (5m 21s):
+I was going to push back on the quirky and bizarre part. I appreciate the, the, I don't want to be a mad scientist stereotype, but I'm enjoying. And in calling back to the beginning of the conversation where you talked about checking in on people on zoom, I'm learning about people who are woodworkers or someone's sourdough starter, or someone doing 3d printing or someone who loves gardening. I'm finding out things that my whole team is quirky and bizarre. And what that means is that they're, they're humans, they're humans with a, a wide variety of interests and that's okay.
+
+2 (5m 54s):
+Absolutely. And I think, yeah, that's, that's exactly it. We're all interesting individuals. And so many people now are playing D and D with me, which is really great. Like I love that folks are starting to explore their creativity more, as they're trying to find, as you were mentioning, like all the team bonding, like new things to do over zoom or to do together since we've been in isolation, right? Like we've been playing team D a lot. Like I just love that people are trying to explore and being a lot more embracing of, of different ways of being, and living your life.
+
+0 (6m 26s):
+Yeah. It's been nice to see the explosion of things like critical role, the D and D folks online, Joe Mandela. Who's like historically an actor who's been very kind of like buff and like butt-kicking, and he's just like apparently a Teddy bear of a guy who makes a, has a regular D and D group and Henry Cavill who is kind of like the pinnacle of pretty in plays. Superman apparently is a Witcher fan and builds his own PC. And as a dungeon master, you know, so like, you know, you can be a whole person. So did, did getting that double major sets you up for success in tech though, because your background is deep technical.
+
+2 (7m 1s):
+Yeah. I mean, I certainly started out life knowing that I was going to do both. Right. My father was a pianist, but he also had a day job. And that was really ingrained in me that you have to take care of your eats and sleeps. So when I realized that I really enjoyed computers, I was like, okay, yeah, this can be a great eat and sleep, but I, it never occurred to me that I'd have to give up theater or not do theater or that it would be something I do on the side. And when I left school, I was like, well, why not do both? So I was pursuing theater professionally, but my computer science career and my jobs were supporting that theatrical career.
+
+2 (7m 41s):
+So instead of waiting tables, I was programming. And the flexibility of being a software engineer allowed me to do theater. I'd be in cattle calls at 5:00 AM in the morning. And I was on tour at one point where, you know, working, and this was in the nineties back when people weren't so, you know, working remotely. So yeah, it, it was, it was an opportunity that I don't think, you know, more people can take advantage of now, but like, it's not what you think, right. You think of, I want to be an actor. I have to wait tables. No, you can do all kinds of different things. And software engineering just really allowed me to pursue my theatrical work career.
+
+0 (8m 23s):
+Yeah. So software engineering as a side hustle, as opposed to a theater as a side hustle.
+
+2 (8m 28s):
+Exactly. There was a point in time where theater became my main job and computers was my side, hustle it, ebbed and flowed back and forth throughout my life, which is interesting. I think after nine 11, actually I lost all my, my computer jobs. I couldn't find a day job, but I had acting gigs outside of town that kept me afloat. And I kind of tease my mom about that. I'm like, Hey, look at that.
+
+0 (8m 55s):
+There was an interesting podcast recently on one of my favorite podcasts by which this actual podcast here is modeled after called fresh air. And they discussed a thing called the method, you know, specifically method acting. And they were juxtaposing different method, actors that really kind of like with deep, profound empathy for the character, they embody the character and they never break character. And that, that podcast got me thinking about the importance of empathy. And I don't mean it in the buzzword way. I know some people might think that if we talk empathy too much, then we're getting into like too much wokeness and stuff, but I'm literally talking about empathy for other humans. And I find that my increase in empathy has helped me both in my outreach work, my, my stand up comedy with PowerPoint, my podcasting and my software engineering.
+
+0 (9m 44s):
+I'm curious where you think that fits into acting and product development.
+
+2 (9m 49s):
+Yeah. I know when you, when you talk about empathy, I mean, it works in two different ways either. It's you putting yourself in the shoes of someone else, which is really what acting is about, right. When you're in a scene with someone you're also very open and receptive to what they are giving you. And that's, that's a very important part of, of the, you know, when, when you're acting to react to let someone is giving you. So I think there's, there's a lot of empathy to be found there. You're trying to relate to the character you're creating yourself, but also to the people on stage around you.
+
+0 (10m 25s):
+Interesting. You say that, say that you're being receptive. I'm hearing more in meetings at work, particularly at our company that active listening is so important. And you're kind of describing that you have to be in the scene and with the other actor so that you can pick up what they're putting down. But so often I see people on zoom calls that are checking their email and their head, their faces over here, and they're moving around. They're not listening. They're just waiting for their turn to talk, which makes communication a lot more difficult.
+
+2 (10m 53s):
+Yeah, for sure. And I mean, you mentioned that you were doing improv. If you're not listening, you're dead. Right. You cannot do improv without listening to the other person you're just off on your own. And it's not as good as seeing the funniest scenes or people reacting off of one another, especially in with improv. You just don't know sometimes where your partner is going to take you. And if you're open and receptive to the yes. And as you mentioned, right, the accepting what that person is giving you and rolling with it, it, that's what it becomes really fun and magical.
+
+0 (11m 27s):
+Yeah. A lot of people from other cultures and from outside the U S haven't necessarily heard about this idea of yes. And as a principal for both their business for their life. I always think about the TV show, whose line is it any way as being a great introduction to improv? And I recommend that anyone who's listening to this show to go and check out some videos of that. Could you talk about why yes. And is so important it's that, that pillar of improvisation,
+
+2 (11m 52s):
+Right? I mean, it's when you're in the middle of a scene and someone throws something away and instead of saying no, or sticking to your idea of a scene, for example, let's say you're at a bus stop and you've have it in your head that I'm going to Oklahoma. And this person says that they're on planet Mars. Right. You can steer the conversation back or just, you know, go no, Oklahoma, but that's not any fun. Right. This one, just, this person just gave you a very interesting place to be, go with it. Yes. Oh yes. Oklahoma, Mars. I've been there. You know what I mean? Let's just go with the flow and it just opens up so much fun.
+
+0 (12m 31s):
+Yeah. I have noticed some of my coworkers being stuck in their thinking. I have noticed it in myself, one of my own biases as I come into a meeting with a great idea, and someone gives me a gift of a yes and oh yes, yes. Your idea. And this thing you didn't think of that builds upon your idea and because I'm not listening, I'm like, well, no, no, no, actually Oklahoma. And you're not picking up a gift that is being given to you if you don't. Yes. And
+
+2 (12m 58s):
+Absolutely. It takes a lot of energy though, to be in that head space. It really does to be an active listener. I mean, being active takes a lot of energy, so be good to yourself. But if I'm coming out of a meeting, especially when we're in zoom meetings back to back, it can be really exhausting. But if you allow yourself to be in that space, you can open yourself up to all kinds of wonderful ideas. And that's, that's how great product is made.
+
+0 (13m 24s):
+There is a wonderful article by a woman named Mary Elizabeth that I will put into the chat here who has a medium blog called improve with improv. And she says that yes. And is the opposite of, well, actually I really like, oh, wow. You're absolutely right. Like there's so many times when you are deflecting a good thing that someone has said with a well-done you actually in fact, no. Right. Do you think that's a fair statement?
+
+2 (13m 54s):
+Yeah. No one likes to hear. Well, actually that is a way not to make friends.
+
+0 (14m 1s):
+Indeed. At the end of the day, your customer has to be at the center of everything you do. This starts with the right customer data strategy, as well as the right foundation to solve the challenges typically inhibit the success of your company, such as data quality, data governance and connectivity. M particle is your real-time customer data infrastructure that helps you accelerate your data strategy by cleansing, visualizing, and integrating your customer data from anywhere to anywhere. Ultimately better data leads to better decisions, better customer experiences and better outcomes. See why the best brands choose M particle go to M particle.com. That's M P a R T I C L e.com.
+
+0 (14m 43s):
+So you recently have been moving from engineering and you've worked on, on video games that we've all played on mobile games, and you've worked with lots of different companies and now you're doing more product management. So I feel like that's a third leg of the stool here of who Leanna is. You've got engineering, you've got empathy through theater, and now you've got product management. Are you finding this to be a thing that splits your personality up? Or is this finally the use of the whole you?
+
+2 (15m 9s):
+Oh wow. That's yeah, the use of the me. I didn't really think of it that way, but I, I, yes, I think that's true. But as we, as humans, right. Evolve over time. Right. So I started out life as a very, you mentioned like being an extrovert, like I was very much an introvert naturally kind of fit into that stereotype of, you know, wanting to be in on my own as a computer scientist and you know, not work with people. I was like, oh, that seems like that would work out well for me. But I really enjoyed theater because of my background. But the thing I enjoyed about theater was the fact that I didn't have to be myself. I could be the person on the page.
+
+2 (15m 50s):
+I could like you gave me lines. And then I would know what to say. That was always my poem. I just don't know what to say in front of people when I say so if you give it to me on a piece of paper, I can do that. But of course, what I learned in theater is that there is no magic in the words, unless you do bring yourself into those words. And so I learned how to be more of myself through that and how to be comfortable with that. So that eventually now over time, as I started did more theater, as I evolved as a software engineer and gain more confidence around creating product, I've definitely at this point in time now becoming a product manager was the Nash, natural evolution of all of that, because I've just become more of myself.
+
+0 (16m 39s):
+Wow. That's perfect. You know, you really blew my mind with that statement though. Tell me what to say. Like give me the words, gave me the script and then I will know what to say as if you, the yourself or me or the one isn't enough, you know, like I need you to be all, I need to be augmented by someone else's words. And then I will know what to say. I've been trying more and more to ask people what they think in meetings, in as a manager, trying to ask people, how do you want to be managed? I realized that my first couple of years, as being a manager, I would tell them when our one-on-ones would be and we would, it would be me leading them as opposed to us kind of going together.
+
+0 (17m 21s):
+So I recently I've started saying, well, how would you like to be mad? When are you in your best head space? You know, do you want a morning? One-on-one do you want to hang out in the afternoon? You want to talk twice a week or once a month? How can I, as a servant leader help you be you, as opposed to me telling them the words so that they would know what to say.
+
+2 (17m 37s):
+Oh, I love that. I love that. That's very, yes. And have you, right? Like inviting other people to shape their one-on-ones with you and their relationship with you because, oh, I was reading about, one-on-ones actually about how really they're not a task list of what did you accomplish for me today? What a one-on-one is about is developing a relationship with someone. So I love that idea of, of, of inviting them to co-create it with you.
+
+0 (18m 1s):
+Yeah. And which brings us back to that idea of co-creation right. When you're doing a scene, when you're starting out in theater, often you'll do either a speech by yourself, but that you'll find yourself, partnered up with someone else it's you and one other person, and you're basically doing a one-on-one live onstage. And then people are asking you questions about how you felt about that afterwards. It does feel like life and work is improv. Constantly. Every meeting is an improv opportunity.
+
+2 (18m 25s):
+Oh, absolutely. And I think it does teach you to think on your feet. Some of us are much better with what's written on the page and practicing that ahead of time. Some of us, maybe me might actually write out a script ahead of time, practice that. So that at least I have some soundbites or like some things to hang on to just because of that introvert piece of me, I'm always afraid to say the wrong thing, but yeah, I think when you're in the scene with someone or in a meeting with someone, right, it's, it's a moment where you can, once you've practiced a rehearsal prepared, you have to let all of that go and just be in the moment.
+
+0 (19m 4s):
+I love that. And I love how we are. Interleaving that you're in the scene as an act or you're in the one-on-one as a leader or as a person who's talking to your boss, those are the same thing, right? Like life is acting. Life is art. We're all just making it up. I've been doing a lot of mentorship of early in career people, which inevitably means younger, younger than me. And I'm trying to get them to just relax. The words can come. The words will come. The more you improv, the more you pretend to be a competent adult, the more you'll realize you're actually a competent adult and you're doing great. It's not that deep. It's going to be okay.
+
+2 (19m 39s):
+Yeah. We're all just, we're all just figuring it out. Absolutely. None of us are, some of us are more eloquent than others, I suppose, but that doesn't mean we're all just not struggling to just get the right words out and just to connect with each other. It's not, it's not just about the words either. Right? It's about connecting, seeing each other as we are right now, over zoom or in person, you know, whatever you can do, but making that connection with another human. So, and there's lots of body language associated with that as well. Right. And, and being open to the other person. I think you mentioned being that sometimes when folks aren't active listening, you can tell, cause they're looking away, they're doing something else. That body language that you're communicating, you have to be really thoughtful about that.
+
+2 (20m 23s):
+One thing I learned in acting class was like the whole cross, your arms thing, which I do constantly. Cause I'm cold. Usually I'm very cool all the time. So I might have my arms crossed and I've had to teach myself not to do that. Cause it's so it's, you know, so off putting to see someone, you know, looking at you that way, regardless of whether it has anything to do with you, which it doesn't, I'm cold, but you know,
+
+0 (20m 42s):
+That's funny. So it's funny that you say that. So I have a frozen shoulder, which is this arm doesn't move. So it is comfortable to put my arms like that. Cause that's the only position that is comfortable, but leaning back with my arms, like that can be very off-putting. I also have diabetes and my blood sugars on my watch. And I didn't realize that I was offending my coworkers because I would be looking at my watch in meetings. And they're like, are we keeping you from somewhere? I, no, no, it's fine. It's my blood sugar. I have not, I want to be here. I just it's telling me I need to have a cookie. I didn't, I'm so sorry. That's an example of empathy, right? Like, no one's saying anyone's upset about it and no one's offended about it, but without context, these things can come off strange.
+
+2 (21m 25s):
+Well, you know, it's interesting how you mentioned that your coworkers called you on that. Like, I think that's important because then they learn something about you. And the next time that you look at your watch, they won't be offended. Right. But they were brave enough to actually ask you about it, which is hard to do. Right? You don't want to call someone out, but sometimes just like, Hey, what's going on there? Why, why aren't you listening away? Why is it that you seem like you're not engaged and let the other person respond to that?
+
+0 (21m 47s):
+You know? And a lot of times that is the scariest thing that you can do is to simply ask whether it be about someone someone's identity or about their background or where they're coming from. But instead in our fake it, till you make it lifestyle choices, we come into a meeting and say, all right, everybody, here's how this is going to go down. This is what's happening today. Like, Hey, how are we doing everybody here on the right page? We all know what we're going to do. What do we want out of this meeting?
+
+2 (22m 11s):
+Yeah. You're supposed to know everything, right. You're supposed to come in and know everything right now. I mean, I think when I started out my engineering career, I was on a Unix box. And that's why I learned early on one, cannot know everything about you and X. It is a worry too expensive. So I came to peace with that very early. I don't not know everything
+
+0 (22m 33s):
+Being humbled very quickly is a really good opportunity. But then, you know, one of the things I think about is I was doing a class recently on engineering resilience and it was a class to teach you how to be more resilient in engineering. And it was like, what are all the things that can beat you up? It could be interpersonal relationships or you don't like your boss. You don't like your coworkers or you don't feel like you're good enough. And it can also just be the crushing defeat of messing up on a project and say, I failed on that project
+
+2 (23m 2s):
+Production down. Hey, we've all done. That
+
+0 (23m 5s):
+Isn't that that's so funny. It's amazing that everything works at all because everyone has a story about bringing down production by dropping some table that they shouldn't have dropped. Everyone is brought to a table in production and it still runs.
+
+2 (23m 17s):
+I think the most lovely and engineering environments I've ever been in is people swapping those stories, right? Like, or when you do make a mistake, folks are like, oh yeah, I've been there. I've you know, and can jump in there with you as a team to say, I got you. I've been there. Let's, let's get out of that together. Those, those that's the team you want to be with those types of folks that so be that person for, if you see someone struggling like that, be that person to say, yeah, I'm in there. I dropped that table. I took down that production more than one time. And you know, we just survived it. Right. We're still sterile here.
+
+0 (23m 54s):
+Th those kinds of stories are super important. And I talk about how I've been in tech for so many years. And I know you've been in tech for quite a few years, but that first five years sucks because you don't know if you're going to stick and you're going to stay here. And if this is right for you and you don't know anything and people don't like you and you don't know enough, you're not senior enough. And you know, for underrepresented people it's even, it's even worse. And I, I keep saying, if we can make an environment where they can fail safely and comfortably, without fear as fast as possible, the more failures, the better upfront, you know what I mean, without losing your job, then, then you will stick around and YouTube can be in tech for 20 or 30 years.
+
+2 (24m 31s):
+Yeah. I mean, it's all those stories and the cutting your teeth in the very beginning is what helps you throughout the rest of your career. Right? All of you will never forget that moment that you took down production and what led to that. And you will never do that thing again. And I think that's the same in theater actually, to go back to that, that moment when, when you fail on stage, like, wow, that is just awful, awful moment. And to be able to have the resiliency to get up and try again, and to stand up in front of people is such a valuable lesson to learn. I can't tell you how many times, like you, you get up to an audition and you just fail and, and, but you got to come back the next day and give it another shot.
+
+2 (25m 18s):
+And then you might have amazing day and get the job, or, oh, I have a great story. I thought I failed. So harshly, once an audition, I walked in confidently and slipped on this rug that they had on aluminum floor, a linoleum floor. And I just slipped down like on my butt, like, and delivered my lines as I was doing it. Cause I was like, oh, well this, I just blew this. And I got the part like you just, you just welcome those crazy moments. I think I got the part because I slipped and, you know, and delivered my lines and just made a big, whole joke about it. Cause I was just willing to laugh at myself and also showed that I could be resilient and, and go with the punches.
+
+0 (26m 1s):
+Speaking of dropping production stories, as it relates to theater, have you ever been in the middle of a scene and a play with someone and then you're like, oh I did. We just skipped two pages of dial, I guess for, I guess we're not doing that scene and you do the whole show and nobody notices and you go back and you look, what was that? I skipped pages and you just lose pages. Those pages are never going to be heard by that, that show that night.
+
+2 (26m 24s):
+But those are the Mo like your best moments, like folks, like the whole show is electrified. Cause everyone's so on edge and alive, as you just don't know what's going to happen next. And I think I told that story on, on JS party, actually that about west side story. When they put the prop folks put the gun away, which is needed in act two and Chino could not find the gun to shoot Tony. So he stabbed him instead. And Maria's Align's next lines are all about the gun. So what does she do? So it was, it was a fun night. And then afterwards the audience was like, Hey, that was a great show.
+
+2 (27m 5s):
+I'm surprised you changed the ending. Like as if we did that on purpose,
+
+0 (27m 10s):
+Did Maria roll with it and just change everything to a stabbing instead of a shooting.
+
+2 (27m 13s):
+I think it's like how many bullets are left chain or enough for you for you? And it was like, how many people can I stop? And you know, it was fine.
+
+0 (27m 25s):
+And she was present though in the moment and she was ready for it, as opposed to just blindly delivering the lines because they were given to her,
+
+2 (27m 32s):
+We were all very present. Cause like, what is she going to say? How can I hope, you know, are we going to just come to a screeching halt or are we going to be able to finish this thing? But it was all fine.
+
+0 (27m 44s):
+I was recently in a, in a courtroom for a patent thing, speaking to a judge and explain, I was told to do a technical explanation. And I was told by the lawyer to prepare for anything. So I was like, what does that mean? Prepare like assume nothing. And the other side showed up and they had their laptop and 150 slide animated PowerPoint, and they were ready to go. But they're entering an old, old courtroom in California and all the screens were square four by three, not 16 by nine. And the gentlemen sat down at the desk to do his presentation and it was VGA and we're supposed to be the technical experts.
+
+0 (28m 24s):
+So I prepared for anything. I had a three page handout with black and white printed and I was like, we're not doing that. We're just like, we don't, we don't freak out. We just, we're not doing the PowerPoint. We're doing something else. So it's almost like you show up to do a west side story. It's like, no, I'm just going to do a three minute soliloquy from Hamlet and I'm going to be happy about it. And you'll never know that you didn't see my side story
+
+2 (28m 47s):
+In the end, everyone's entertained, which was what they came for.
+
+0 (28m 50s):
+And that's all that matters. So within the context of, of product management, product management and development, what do you think that people who are listening, who aren't a couple of theater nerds you should do with this, should they all rush out and take comedy sports improv? How could they incorporate this into the
+
+2 (29m 9s):
+Obviously that's number one? I mean, there's, there's a whole bunch of different, I think improv can be scary to people, right? It's, it's a very scary thing to do. So I, and honestly I think like standup or any kind of comedy is like one of the hardest things you can do. So major props to anyone who goes out there, but give it a shot. Cause it is really fun. It is so fun if you're willing to be silly and how and roll with it. And like I said, everybody around you is all in it with you. It's not like a, oh, I have to be perfect. And I have to be like, they're all in it with you. So definitely take an improv class. But if that's a little scary try seeing in class, cause that scares people too, right.
+
+2 (29m 49s):
+I mean, do what scares you, right?
+
+0 (29m 51s):
+That sounds like the worst possible advice you could've ever given. I I'm with you right up until the singing part. Like my time in musical theater was short, very short
+
+2 (30m 2s):
+Singing, dancing, or just an acting class. I mean, if it's an acting class, like where I started with is just, it's given to you on a piece of paper, here's a bunch of words, read the words and play with that. And that, that it was really fun. Yeah. Maybe take a scene and practice it with a friend or get us a little equate and practice with your dog.
+
+0 (30m 23s):
+Yeah. Having the ability to have X tech. See, I just messed it up. I was going to say something really awesome. And then I remembered it and I'm not going to edit it because it's a podcast. Being able to speak extemporaneously as a muscle that one has to exercise and being able to have a conversation like you. And I just have for the last 30 minutes with a minimal number of ums and a sentence that's planned out and a story arc that takes the listener from intro to crescendo and then to an outro that's coming up here is an exercise. You don't come built in able to do this, right.
+
+2 (30m 59s):
+It's something that has to be practiced and right. You and I kind of had a moment where we talked about what we were going to discuss today and kind of built a little bit around what the conversation was going to be, but it wasn't line for line, right? We're, you know, we're, we're, we're having a conversation here, but that, that comes from a lot of, of doing. If you want to be comfortable in speaking with folks, then there's just a lot of doing and a lot of practicing and you can do that at home by yourself or with others. Preferably are Toastmasters. I know a lot of folks will we'll do that as a way of learning how to speak in public.
+
+0 (31m 35s):
+And this entire podcast has been improvised with a plan that maybe didn't work out exactly as we thought it would. But I thought it went okay if I could ask you at the end here to just share with us what you're working on right now at Woebot health.
+
+2 (31m 47s):
+Yeah. So I'm a product manager at Woebot health and they make mental health applications. You can download them today on your iPhone or on your Android device for free. And it focuses on anxiety and depression, which given today's events and in the events of the world in the past few years, a lot of us are feeling a lot of anxiety and a bit of depression and why not give it a shot? It is a chat bot uses AI and to communicate with you and empathize with you and using cognitive behavioral therapies to help you get over anxiety and depression issues.
+
+0 (32m 28s):
+Very cool. That sounds like a really exciting project to, to be working on. I'm glad that you're one of the folks helping to make that happen.
+
+2 (32m 34s):
+It's so fun. I'm really loving being back in the mental health space in the wellness space. It's it's a joy.
+
+0 (32m 40s):
+Very cool. Leanna Lee, thank you so much for spending time with me today.
+
+2 (32m 44s):
+Thank you. It was wonderful chatting.
+
+0 (32m 46s):
+This has been another episode of Hanselminutes and we'll see you again next week.

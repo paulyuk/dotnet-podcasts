@@ -1,32 +1,38 @@
-from flask import Flask, request
+from flask import Flask
 import json
 import azure.cognitiveservices.speech as speechsdk
 import os
+import time
 
 app = Flask(__name__)
 
 
+@app.route("/transcript/<optional_file>", methods=['POST'])
 @app.route('/transcript', methods=['POST'])
-def getOrder():
-    podcast_file = 'podcast.mp3'
+def getTranscript(optional_file='podcast.mp3'):
+    podcast_file = optional_file
     print('Speech analyzing {}'.format(podcast_file))
     data = speech_recognize_once_from_file('./podcast.mp3')
 
     return json.dumps({'transcript': data}), 200, {
         'ContentType': 'application/json'}
 
+
 # Set up the subscription info for the Speech Service:
 # Replace with your own subscription key and service region (e.g., "westus").
 speech_key, service_region = os.getenv('SPEECH_KEY'), os.getenv('SERVICE_REGION')
 
+
 def speech_recognize_once_from_file(file_name):
     """performs one-shot speech recognition with input from an audio file"""
     # <SpeechRecognitionWithFile>
-    speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
+    speech_config = speechsdk.SpeechConfig(subscription=speech_key,
+                                           region=service_region)
     audio_config = speechsdk.audio.AudioConfig(filename=file_name)
-    # Creates a speech recognizer using a file as audio input, also specify the speech language
+    # Creates a speech recognizer using a file as audio input,
+    # also specify the speech language
     speech_recognizer = speechsdk.SpeechRecognizer(
-        speech_config=speech_config, language="en-US", audio_config=audio_config)
+        speech_config=speech_config, language="en-US",audio_config=audio_config)
 
     # Starts speech recognition, and returns after a single utterance is recognized. The end of a
     # single utterance is determined by listening for silence at the end or until a maximum of 15
@@ -51,5 +57,18 @@ def speech_recognize_once_from_file(file_name):
     # </SpeechRecognitionWithFile>
 
     return result_text
+
+@app.route('/transcript-dev', methods=['POST'])
+def getTranscriptUnitTest():
+    podcast_file = 'podcast.mp3'
+    transcript_file = 'transcript.txt'
+    print('Speech analyzing {}'.format(podcast_file))
+
+    with open(transcript_file) as f:
+        data = f.readlines()
+
+    time.sleep(2)
+    return json.dumps({'transcript': data}), 200, {
+        'ContentType': 'application/json'}
 
 app.run(port=7001)
