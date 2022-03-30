@@ -2,24 +2,25 @@ using System;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Podcast.Transcript.Function
 {
     public class TranscribeFunction
     {
 
-        var baseURL = (Environment.GetEnvironmentVariable("BASE_URL") ?? "http://localhost") + ":" + (Environment.GetEnvironmentVariable("DAPR_HTTP_PORT") ?? "3500");
-        var client = new HttpClient();
+        private static HttpClient client = new HttpClient();
 
         [FunctionName("TranscribeFunction")]
-        public void Run([TimerTrigger("0 0 * * * *")]TimerInfo myTimer, ILogger log)
+        public static async Task Run([TimerTrigger("0 0 * * * *")]TimerInfo myTimer, ILogger log)
         {
+            var baseURL = (Environment.GetEnvironmentVariable("BASE_URL") ?? "http://localhost") + ":" + (Environment.GetEnvironmentVariable("DAPR_HTTP_PORT") ?? "3500");
+
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
            
-            var content = new StringContent("{}", Encoding.UTF8, "application/json"); //to specify specific audio files
-
             // Invoking the /transcript microservice with HttpClient
-            var response = await client.PostAsync($"{baseURL}/transcript", content);
+            var response = await client.PostAsync($"{baseURL}/transcript", null);
             log.LogInformation("Transcription completed at:  {DateTime.Now}");
         }
     }
