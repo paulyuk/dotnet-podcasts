@@ -18,6 +18,9 @@ namespace Podcast.Transcript.Function
             var baseURL = (Environment.GetEnvironmentVariable("BASE_URL") ?? "http://localhost") + ":" + (Environment.GetEnvironmentVariable("DAPR_HTTP_PORT") ?? "3500");
 
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
+
+
+            client.DefaultRequestHeaders.Add("dapr-app-id", "transcript");
            
             // Invoking the /transcript microservice with HttpClient
             var response = await client.PostAsync($"{baseURL}/transcript", null);
