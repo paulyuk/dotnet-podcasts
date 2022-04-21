@@ -21,16 +21,11 @@ namespace Podcast.Transcript.Function
 
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
 
-            client.DefaultRequestHeaders.Add("dapr-app-id", "transcript");
-           
             // Invoking the /transcript microservice with HttpClient
             var response = await client.PostAsync($"{baseURL}/transcript", null);
             var data = await response.Content.ReadAsStringAsync();
-            log.LogInformation("Transcription completed at:  {DateTime.Now}");
+            log.LogInformation($"Transcription completed at:  {DateTime.Now} with data: {data}");
 
-            using var DaprClient = new DaprClientBuilder().Build();
-            await DaprClient.SaveStateAsync<string>("transcripts", $"{DateTime.Now}", data); 
-            await DaprClient.PublishEventAsync<string>("podcasts", "new-transcript", data);
         }
     }
 }
